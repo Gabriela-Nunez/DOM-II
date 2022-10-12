@@ -25,11 +25,15 @@ document.addEventListener("keydown", evt => {
 
 //keyup
 
+
+
 document.addEventListener("keyup", evt => {
   evt.target.style.backgroundColor = "white";
 })
 
 //mouseover
+
+
 const h4 = document.querySelector('header h2');
 h4.addEventListener("mouseover", evt => {
   evt.target.style.fontSize = "5rem";
